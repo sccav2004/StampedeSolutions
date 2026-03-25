@@ -1,7 +1,7 @@
 import hashlib
 
 USERS = {
-    "doctor": hashlib.sha256("password123".encode()).hexdigest()
+    "admin": hashlib.sha256("password123".encode()).hexdigest()
 }
 
 def authenticate(username, password):
